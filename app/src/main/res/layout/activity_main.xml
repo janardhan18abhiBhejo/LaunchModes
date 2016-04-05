@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+
+     >
+
+    <Button
+        android:id="@+id/standardMode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:background="#ff00"
+        android:text="Standard Mode" />
+
+    <Button
+        android:id="@+id/singleTop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:background="#ff00"
+        android:text="Single Top" />
+
+    <Button
+        android:id="@+id/singleTask"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:background="#ff00"
+        android:text="Single Task" />
+
+    <Button
+        android:id="@+id/singleInstance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:background="#ff00"
+        android:text="Single Instance" />
+
+</LinearLayout>
