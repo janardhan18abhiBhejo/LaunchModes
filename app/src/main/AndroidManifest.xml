@@ -11,6 +11,7 @@
         <activity
             android:name="com.android.janardhan.launchmodes1.StandardModeActivity"
             android:label="@string/app_name"
+			android:icon="@mipmap/ic_launcher"
             android:launchMode="standard" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
