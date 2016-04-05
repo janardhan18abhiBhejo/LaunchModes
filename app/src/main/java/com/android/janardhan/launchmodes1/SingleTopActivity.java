@@ -1,8 +1,5 @@
 package com.android.janardhan.launchmodes1;
-
-
-
-        import android.app.Activity;
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -10,10 +7,12 @@ import android.view.View.OnClickListener;
 
 public class SingleTopActivity extends Activity implements OnClickListener{
 
+    private boolean mIstrue;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+		mIstrue=true;
     }
 
     @Override
