@@ -9,11 +9,13 @@ import android.view.View;
 import android.view.View.OnClickListener;
 
 public class StandardModeActivity extends Activity implements OnClickListener{
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+     int i;
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+		//my new comment 
+		i=2;
     }
 
     @Override
